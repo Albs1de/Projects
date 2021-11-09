@@ -1,0 +1,39 @@
+body {
+    background-color: #7bdaf3;
+    flex-wrap: wrap;
+}
+.notes {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+
+}
+.notes .tools {
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+    
+}
+
+.notes .tools button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    
+}
+
+.notes .main {
+    height: 100%;
+    width: 100%;
+}
+
+.main textarea {
+    height: 100%;
+    width: 100%;
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
